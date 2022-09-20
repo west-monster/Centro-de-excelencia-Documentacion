@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uso de los clusters asociados &#8212; documentación de HPC-CECC - main</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/translations.js"></script>
+    
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="prev" title="Ingreso" href="../ingreso/index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="../ingreso/index.html" title="Ingreso"
+             accesskey="P">anterior</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentación de HPC-CECC - main</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Uso de los clusters asociados</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="uso-de-los-clusters-asociados">
+<h1>Uso de los clusters asociados<a class="headerlink" href="#uso-de-los-clusters-asociados" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Todas las tareas y los cluster asociados son gestionados con el software SLURM(Simple Linux Utility for Resources Management).</p>
+<div class="section" id="que-es-slurm">
+<h2>Que es SLURM?<a class="headerlink" href="#que-es-slurm" title="Enlazar permanentemente con este título">¶</a></h2>
+<p><a class="reference external" href="https://slurm.schedmd.com/overview.html">SLURM</a> es un conjunto de herramientas de software <a class="reference external" href="https://www.gnu.org/philosophy/categories.html">open-source</a> que gestiona los recursos computacionales  y agenda los trabajos en cada nodo de la federacion de clusters dedicados a la computacion cientifica en la <a class="reference external" href="https://cecc.unal.edu.co">Universidad Nacional de Colombia</a> .</p>
+<p>Los usuarios no ejecutan el software en estos clusters de la manera en que lo harían en una estación de trabajo:  Aqui se deben enviar los trabajos, que se ejecutan durante un tiempo definido, con  recursos  asignados, sin supervisión del usuario y con una agenda y prioridad decidida por algoritmos.</p>
+<div class="section" id="ejecutando-trabajos-con-sesiones-iteractivas-con-slurm">
+<h3>Ejecutando trabajos con Sesiones iteractivas con SLURM<a class="headerlink" href="#ejecutando-trabajos-con-sesiones-iteractivas-con-slurm" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Una sesión interactiva (o interactiva) con SLURM le posibilita reservar <a class="reference external" href="https://es.wikipedia.org/wiki/Recursos_computacionales">recursos computacionales</a>  en los nodos de los clusters del CECC  para ejecutar aplicaciones  mientras se encuentra en una sesion de <a class="reference external" href="https://es.wikipedia.org/wiki/Shell_de_Unix">shell</a>;  Esto permite a los usuarios ejecutar aplicaciones que requieren el control o la  decision del usuario o aplicaciones, se usa en procesos de depuracion o aplicaciones gráficas completas que requieren recursos informáticos más extensos.</p>
+<p>En general existen 3 posibles rutas para reservar estos recursos:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://slurm.schedmd.com/sbatch.html">sbatch</a>: Para enviar un  <a class="reference external" href="https://es.wikipedia.org/wiki/Script">script</a>  el cual es agendado y enviado a procesar <em>cuando los recursos solicitados y asignados al usuario esten disponibles</em>; despues de enviado el usuario regresa inmediatamente a la <a class="reference external" href="https://es.wikipedia.org/wiki/Shell_de_Unix">shell</a>.</p></li>
+<li><p><a class="reference external" href="https://slurm.schedmd.com/srun.html">srun</a>: Envio de una tarea simple, no requiere de preparacion o procesamientos posteriores. La salida de la shell–normamente la pantalla– permite el control del usuario justo cuando el trabajo finalice.</p></li>
+<li><p><a class="reference external" href="https://slurm.schedmd.com/salloc.html">salloc</a>: Permite solicitar recursos sin tener necesariamente una tarea  o proceso que los use.  El usuario tendra el control de la salida estandar(Pantalla) se elimine o se cancele, la shell tambien sera bloqueada hasta que el trabajo inicie.</p></li>
+</ul>
+</div>
+<div class="section" id="que-hacer-y-que-no-hacer-en-los-clusters">
+<h3>Que hacer y que no hacer en los Clusters<a class="headerlink" href="#que-hacer-y-que-no-hacer-en-los-clusters" title="Enlazar permanentemente con este título">¶</a></h3>
+</div>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Tabla de contenido</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Uso de los clusters asociados</a><ul>
+<li><a class="reference internal" href="#que-es-slurm">Que es SLURM?</a><ul>
+<li><a class="reference internal" href="#ejecutando-trabajos-con-sesiones-iteractivas-con-slurm">Ejecutando trabajos con Sesiones iteractivas con SLURM</a></li>
+<li><a class="reference internal" href="#que-hacer-y-que-no-hacer-en-los-clusters">Que hacer y que no hacer en los Clusters</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="../ingreso/index.html"
+                        title="capítulo anterior">Ingreso</a></p>
+  <div role="note" aria-label="source link">
+    <h3>Esta página</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/uso/index.rst.txt"
+            rel="nofollow">Mostrar el código</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Búsqueda rápida</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Ir a" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="../ingreso/index.html" title="Ingreso"
+             >anterior</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentación de HPC-CECC - main</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Uso de los clusters asociados</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Derechos de autor 2022, Ernesto Parra.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.4.3.
+    </div>
+  </body>
+</html>
