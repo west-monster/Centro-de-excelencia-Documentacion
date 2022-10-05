@@ -92,9 +92,149 @@ todo_include_todos = True
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'classic'
+###html_theme = 'classic'
 
 # Add any paths that contain custom static files (such as style sheets) here,
+
+
+#
+html_theme = os.getenv('USERGUIDETHEME')
+if html_theme == 'sphinx_rtd_theme':
+    import sphinx_rtd_theme
+    html_theme_path = sphinx_rtd_theme.get_html_theme_path()
+elif html_theme == 'bootstrap':
+    import sphinx_bootstrap_theme
+    html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+elif html_theme is None:
+    html_theme = 'sphinx_rtd_theme'
+    import sphinx_rtd_theme
+    html_theme_path = sphinx_rtd_theme.get_html_theme_path()
+else:
+    # no theme specified
+    pass
+
+# Theme options are theme-specific and customize the look and feel of a theme
+# further.  For a list of options available for each theme, see the
+# documentation.
+#
+# html_theme_options = {}
+
+# Add any paths that contain custom static files (such as style sheets) here,
+# relative to this directory. They are copied after the builtin static files,
+# so a file named "default.css" will overwrite the builtin "default.css".
+html_static_path = ['_static']
+
+def placeholderReplace(app, docname, source):
+    result = source[0]
+    for key in app.config.placeholder_replacements:
+        result = result.replace(key, app.config.placeholder_replacements[key])
+    source[0] = result
+
+
+def setup(app):
+    app.add_stylesheet('css/custom.css')
+    app.add_config_value('placeholder_replacements', {}, True)
+    app.connect('source-read', placeholderReplace)
+
+# -- Options for HTMLHelp output ------------------------------------------
+
+# Output file base name for HTML help builder.
+htmlhelp_basename = 'hpcuserguidedoc'
+
+
+# -- Options for LaTeX output ---------------------------------------------
+
+latex_elements = {
+    # The paper size ('letterpaper' or 'a4paper').
+    #
+    # 'papersize': 'letterpaper',
+
+    # The font size ('10pt', '11pt' or '12pt').
+    #
+    # 'pointsize': '10pt',
+
+    # Additional stuff for the LaTeX preamble.
+    #
+    # 'preamble': '',
+
+    # Latex figure (float) alignment
+    #
+    # 'figure_align': 'htbp',
+}
+
+# Grouping the document tree into LaTeX files. List of tuples
+# (source start file, target name, title,
+#  author, documentclass [howto, manual, or own class]).
+latex_documents = [
+    (master_doc, 'hpcuserguide.tex', 'hpc user guide Documentation',
+     'HPC admin team', 'manual'),
+]
+
+
+# -- Options for manual page output ---------------------------------------
+
+# One entry per manual page. List of tuples
+# (source start file, name, description, authors, manual section).
+man_pages = [
+    (master_doc, 'hpcuserguide', 'hpc user guide Documentation',
+     [author], 1)
+]
+
+
+# -- Options for Texinfo output -------------------------------------------
+
+# Grouping the document tree into Texinfo files. List of tuples
+# (source start file, target name, title, author,
+#  dir menu entry, description, category)
+texinfo_documents = [
+    (master_doc, 'hpcuserguide', 'hpc user guide Documentation',
+     author, 'hpcuserguide', 'One line description of project.',
+     'Miscellaneous'),
+]
+
+
+
+# -- Options for Epub output ----------------------------------------------
+
+# Bibliographic Dublin Core info.
+epub_title = project
+epub_author = author
+epub_publisher = author
+epub_copyright = copyright
+
+# The unique identifier of the text. This can be a ISBN number
+# or the project homepage.
+#
+# epub_identifier = ''
+
+# A unique identification for the text.
+#
+# epub_uid = ''
+
+# A list of files that should not be packed into the epub file.
+epub_exclude_files = ['search.html']
+
+# Example configuration for intersphinx: refer to the Python standard library.
+intersphinx_mapping = {'https://docs.python.org/': None}
+
+# Skip the links with anchor tags during the linkcheck
+linkcheck_anchors = False
+
+# Increase the linkcheck timeout to 5 seconds
+linkcheck_timeout = 5
+
+#html_js_files = [
+#        'js/custom.js'
+#]
+#
+#html_theme_options = {
+#        "collapse_navigation": False,
+#}
+
+
+
+
+
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
