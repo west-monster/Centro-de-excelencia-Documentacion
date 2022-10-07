@@ -20,7 +20,7 @@ Una vez su Director de grupo de Investigacion haya solicitado para usted el ingr
    :maxdepth: -1
    :hidden:
    
-  ingreso.rst
+  ingreso/index.rst
   asociados/index.rst
   software/index.rst
   uso/index.rst
