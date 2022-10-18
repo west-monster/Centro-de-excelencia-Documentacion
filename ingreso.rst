@@ -18,5 +18,5 @@ putty
 
 Llaves SSH
 #########
- 
- esta es una prueba de compilacion 
+
+esta es una prueba de compilacion 
