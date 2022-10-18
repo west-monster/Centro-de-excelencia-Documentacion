@@ -18,9 +18,9 @@ Clientes SSH para windows:
 `MobaXterm <https://mobaxterm.mobatek.net/download.html>`_
 
 .. image:: /images/Moba.PNG
-    :width: 452px
+    :width: 911px
     :align: center
-    :height: 442px
+    :height: 523px
     :alt: Estructura CECC
     
 MobaXterm es un toolbox para computación remota, cuenta con un clientes SSH bastante completo y otras caracteristicas adicionales como multi ejecución (ejecutar el mismo codigo en varios servidores a la vez), compatibilidad con X11 Server,etc. 
@@ -30,9 +30,9 @@ MobaXterm es un toolbox para computación remota, cuenta con un clientes SSH bas
 `PuTTY <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>`_
 
 .. image:: /images/Putty.PNG
-    :width: 911px
+    :width: 452px
     :align: center
-    :height: 523px
+    :height: 442px
     :alt: Estructura CECC
 
 Putty es un clientes SSH con varias herramientas como creación de llaves SSH, compatibilidad con IPv6, etc. Este cliente es más ligero que MobaXterm por lo que es una buena alternativa en caso de que el usuario cuente con una maquina con recursos limitados. 
