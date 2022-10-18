@@ -17,7 +17,7 @@ Clientes SSH para windows:
 
 `MobaXterm <https://mobaxterm.mobatek.net/download.html>`_
 
-.. image:: /images/Putty.PNG
+.. image:: /images/Moba.PNG
     :width: 452px
     :align: center
     :height: 442px
@@ -29,7 +29,7 @@ MobaXterm es un toolbox para computación remota, cuenta con un clientes SSH bas
 
 `PuTTY <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>`_
 
-.. image:: /images/Moba.PNG
+.. image:: /images/Putty.PNG
     :width: 911px
     :align: center
     :height: 523px
