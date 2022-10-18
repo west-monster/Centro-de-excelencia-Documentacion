@@ -16,6 +16,9 @@ mobaxterm
 putty
 ****
 
+tercera opcion
+*********
+
 Llaves SSH
 #########
 
