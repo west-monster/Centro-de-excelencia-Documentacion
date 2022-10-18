@@ -22,6 +22,8 @@ Clientes SSH para windows:
     :align: center
     :height: 442px
     :alt: Estructura CECC
+    
+MobaXterm es un toolbox para computación remota, cuenta con un clientes SSH bastante completo y otras caracteristicas adicionales como multi ejecución (ejecutar el mismo codigo en varios servidores a la vez), compatibilidad con X11 Server,etc. 
 
 
 
@@ -33,9 +35,14 @@ Clientes SSH para windows:
     :height: 523px
     :alt: Estructura CECC
 
-tercera opcion
+Putty es un clientes SSH con varias herramientas como creación de llaves SSH, compatibilidad con IPv6, etc. Este cliente es más ligero que MobaXterm por lo que es una buena alternativa en caso de que el usuario cuente con una maquina con recursos limitados. 
 
-Llaves SSH (por implementar) 
+Conectarse usando SSH
 ################
 
-esta es una prueba de compilacion 
+MacOS y GNU/Linux
+******************
+
+Windows
+**********
+
