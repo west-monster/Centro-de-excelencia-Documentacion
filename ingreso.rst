@@ -15,12 +15,13 @@ Para acceder al HPC del CECC usted debe hacer hacerlo mediante el uso de SSH, po
 Clientes SSH para windows:
 ************************
 
-mobaxterm
+`MobaXterm <https://mobaxterm.mobatek.net/download.html>`_
 
-putty
+
+`PuTTY <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>`_
+
 
 tercera opcion
-
 
 Llaves SSH (por implementar) 
 ################
