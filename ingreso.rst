@@ -16,6 +16,7 @@ Clientes SSH para windows:
 ************************
 
 `MobaXterm <https://mobaxterm.mobatek.net/download.html>`_
+
 .. image:: /images/Putty.PNG
     :width: 452px
     :align: center
@@ -25,6 +26,7 @@ Clientes SSH para windows:
 
 
 `PuTTY <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>`_
+
 .. image:: /images/Moba.PNG
     :width: 911px
     :align: center
