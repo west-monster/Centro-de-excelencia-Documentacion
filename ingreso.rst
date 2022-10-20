@@ -42,9 +42,9 @@ Conectarse usando SSH
 MacOS y GNU/Linux
 ******************
 
-Para conectarse usando MacOS o GNU/Linux , deberá abrír la terminal y escribir el comando *SSH* seguido de *dirección IP @ su usuario* usando la dirección IP del HPC del CECC como se muestra en la imagen: 
+Para conectarse usando MacOS o GNU/Linux , deberá abrír la terminal y escribir el comando *SSH* seguido de * su usuario @ dirección IP* usando la dirección IP del HPC del CECC como se muestra en la imagen: 
 
-.. image:: /images/linux1.png
+.. image:: /images/linux2.png
     :width: 600px
     :align: center
     :height: 325px
