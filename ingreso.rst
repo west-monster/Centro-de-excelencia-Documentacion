@@ -64,7 +64,7 @@ En este menú deberá dar click en el botón de sesiones:
     :height: 503
     :alt: Estructura CECC
 
-Una vez oprima dicho botón, aparecerá un menú donde debrá seleccionar el tipo protocolo que desea usar, en este caso deber seleccionar SSH: 
+Cuando vez oprima dicho botón, aparecerá un menú donde debrá seleccionar el tipo protocolo que desea usar, en este caso deber seleccionar SSH: 
 
 .. image:: /images/Moba/Mobases.PNG
     :width: 898
@@ -79,5 +79,14 @@ Una vez seleccionado SSH, aparecerá un recuadro donde deberá introducir la dir
     :align: center
     :height: 604
     :alt: Estructura CECC
-  
  
+Despues de haber introducido la dirección IP, saldrá este recuadro donde se le pedira que ingresé el usuario y contraseña que el administrador le haya suministrado: 
+
+.. image:: /images/Moba/mobases3.PNG
+    :width: 898
+    :align: center
+    :height: 604
+    :alt: Estructura CECC
+ 
+
+Si ha seguido los pasos correctamente, tendá acceso al HPC del CECC.  
