@@ -77,7 +77,7 @@ En este menú deberá ingresar la dirección IP HPC del CECC y seleeciónar el t
     
 Una vez de click en *Open*, la primera vez que se conecte a cualquier sevidor aparecerá una ventana como la que se muestra a continuacón (esto es totalmente normal y tiene como objetivo que su computador guarde un identificador para que la proxima vez que usted se trate de conectar al sevidor usando la misma dirección IP su computadora pueda verificar que es el mismo al que se conecto previamente), para continuar solo de click en *Accept*.    
 
-.. image:: /images/Putty/putty1.PNG
+.. image:: /images/Putty/putty3.PNG
     :width: 611px
     :align: center
     :height: 418px
@@ -86,7 +86,7 @@ Una vez de click en *Open*, la primera vez que se conecte a cualquier sevidor ap
 
 Ahora saldrá está ventana donde se le pedira que ingresé el usuario y contraseña que el administrador le haya suministrado: 
 
-.. image:: /images/Putty/putty2.PNG
+.. image:: /images/Putty/putty4.PNG
     :width: 611px
     :align: center
     :height: 418px
