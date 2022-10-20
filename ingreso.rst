@@ -43,10 +43,18 @@ Conectarse usando SSH
 MacOS y GNU/Linux
 ******************
 
+
+
+
 Windows
 **********
+**Conectarse usando PuTTY**
 
-Conectarse usando MobaXterm:
+Una vez abierto el programa aparecerá el siguiente menú:
+
+
+
+**Conectarse usando MobaXterm:**
 
 Una vez abierto el programa aparecerá el siguiente menú:
 
