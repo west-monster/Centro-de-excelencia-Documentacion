@@ -51,18 +51,24 @@ Conectarse usando MobaXterm:
 Una vez abierto el programa aparecerá el siguiente menú:
 
 .. image:: /images/Moba.PNG
-    :width: 452px
+    :width: 911px
     :align: center
-    :height: 442px
+    :height: 523px
     :alt: Estructura CECC
 
-En este menú deberá dar click en el botón de conexión SSH 
+En este menú deberá dar click en el botón de sesiones: 
 
-.. image:: /images/Moba/Mobases.PNG
-    :width: 452px
+.. image:: /images/Moba/Moba.PNG
+    :width: 901
     :align: center
-    :height: 442px
+    :height: 503
     :alt: Estructura CECC
 
+Una vez oprima dicho botón, aparecerá un menú donde debrá seleccionar el tipo protocolo que desea usar, en este caso deber seleccionar SSH: 
 
+.. image:: /images/Moba/MobasesG
+    :width: 898
+    :align: center
+    :height: 604
+    :alt: Estructura CECC
 
