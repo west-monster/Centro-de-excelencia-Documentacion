@@ -17,7 +17,7 @@ Clientes SSH para windows:
 
 `MobaXterm <https://mobaxterm.mobatek.net/download.html>`_
 
-.. image:: /images/Moba.PNG
+.. image:: /images/Moba.png
     :width: 911px
     :align: center
     :height: 523px
@@ -71,4 +71,13 @@ Una vez oprima dicho botón, aparecerá un menú donde debrá seleccionar el tip
     :align: center
     :height: 604
     :alt: Estructura CECC
+    
+Una vez seleccionado SSH, aparecerá un recuadro donde deberá introducir la dirección IP del HPC del CECC
 
+.. image:: /images/Moba/Mobases2.PNG
+    :width: 898
+    :align: center
+    :height: 604
+    :alt: Estructura CECC
+  
+ 
