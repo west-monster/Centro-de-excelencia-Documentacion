@@ -110,9 +110,9 @@ Una vez abierto el programa aparecerá el siguiente menú:
 En este menú deberá dar click en el botón de sesiones: 
 
 .. image:: /images/Moba/Moba.PNG
-    :width: 901
+    :width: 600px
     :align: center
-    :height: 503
+    :height: 331px
     :alt: MobaXterm tutorial
 
 
