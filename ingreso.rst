@@ -60,9 +60,9 @@ Windows
 Una vez abierto el programa aparecerá el siguiente menú:
 
 .. image:: /images/Putty/Putty.PNG
-    :width: 911px
+    :width: 452px
     :align: center
-    :height: 523px
+    :height: 442px
     :alt: Estructura CECC
 
 
