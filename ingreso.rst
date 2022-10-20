@@ -21,7 +21,7 @@ Clientes SSH para windows:
     :width: 911px
     :align: center
     :height: 523px
-    :alt: Estructura CECC
+    :alt: MobaXterm image
     
 MobaXterm es un toolbox para computación remota, cuenta con un clientes SSH bastante completo y otras caracteristicas adicionales como multi ejecución (ejecutar el mismo codigo en varios servidores a la vez), compatibilidad con X11 Server,etc. 
 
@@ -33,7 +33,7 @@ MobaXterm es un toolbox para computación remota, cuenta con un clientes SSH bas
     :width: 452px
     :align: center
     :height: 442px
-    :alt: Estructura CECC
+    :alt: PuTTY image
 
 Putty es un clientes SSH con varias herramientas como creación de llaves SSH, compatibilidad con IPv6, etc. Este cliente es más ligero que MobaXterm por lo que es una buena alternativa en caso de que el usuario cuente con una maquina con recursos limitados. 
 
@@ -49,7 +49,7 @@ Para conectarse usando MacOS o GNU/Linux , deberá abrír la terminal y escribir
     :width: 911px
     :align: center
     :height: 491px
-    :alt: Estructura CECC
+    :alt: Linux terminal image
 
 Si ha seguido los pasos correctamente, tendá acceso al HPC del CECC.  
 
@@ -64,7 +64,7 @@ Una vez abierto el programa aparecerá el siguiente menú:
     :width: 452px
     :align: center
     :height: 442px
-    :alt: Estructura CECC
+    :alt: Putty tutorial
     
 En este menú deberá ingresar la dirección IP HPC del CECC y seleeciónar el tipo de conexión *SSH*
 
@@ -72,24 +72,24 @@ En este menú deberá ingresar la dirección IP HPC del CECC y seleeciónar el t
     :width: 452px
     :align: center
     :height: 442px
-    :alt: Estructura CECC
+    :alt: Putty tutorial
 
 Una vez de click en *Open*, la primera vez que se conecte a cualquier sevidor aparecerá una ventana como la que se muestra a continuacón (esto es totalmente normal y tiene como objetivo que su computador guarde un identificador para que la proxima vez que usted se trate de conectar al sevidor usando la misma dirección IP su computadora pueda verificar que es el mismo al que se conecto previamente), para continuar solo de click en *Accept*.    
 
 
-.. image:: /images/Putty/Putty1.PNG
+.. image:: /images/Putty/putty1.PNG
     :width: 611px
     :align: center
     :height: 418px
-    :alt: Estructura CECC
+    :alt: Putty tutorial
 
 Ahora saldrá está ventana donde se le pedira que ingresé el usuario y contraseña que el administrador le haya suministrado: 
 
-.. image:: /images/Putty/Putty2.PNG
+.. image:: /images/Putty/putty2.PNG
     :width: 611px
     :align: center
     :height: 418px
-    :alt: Estructura CECC
+    :alt: Putty tutorial
     
 Si ha seguido los pasos correctamente, tendá acceso al HPC del CECC.    
 
@@ -102,7 +102,7 @@ Una vez abierto el programa aparecerá el siguiente menú:
     :width: 911px
     :align: center
     :height: 523px
-    :alt: Estructura CECC
+    :alt: MobaXterm tutorial
 
 En este menú deberá dar click en el botón de sesiones: 
 
@@ -110,7 +110,7 @@ En este menú deberá dar click en el botón de sesiones:
     :width: 901
     :align: center
     :height: 503
-    :alt: Estructura CECC
+    :alt: MobaXterm tutorial
 
 Cuando vez oprima dicho botón, aparecerá un menú donde debrá seleccionar el tipo protocolo que desea usar, en este caso deber seleccionar *SSH*: 
 
@@ -118,7 +118,7 @@ Cuando vez oprima dicho botón, aparecerá un menú donde debrá seleccionar el 
     :width: 898
     :align: center
     :height: 604
-    :alt: Estructura CECC
+    :alt: MobaXterm tutorial
     
 Una vez seleccionado SSH, aparecerá un recuadro donde deberá introducir la dirección IP del HPC del CECC
 
@@ -126,7 +126,7 @@ Una vez seleccionado SSH, aparecerá un recuadro donde deberá introducir la dir
     :width: 898
     :align: center
     :height: 604
-    :alt: Estructura CECC
+    :alt: MobaXterm tutorial
  
 Despues de haber introducido la dirección IP, saldrá este recuadro donde se le pedira que ingresé el usuario y contraseña que el administrador le haya suministrado: 
 
@@ -134,7 +134,7 @@ Despues de haber introducido la dirección IP, saldrá este recuadro donde se le
     :width: 898
     :align: center
     :height: 604
-    :alt: Estructura CECC
+    :alt: MobaXterm tutorial
  
 
 Si ha seguido los pasos correctamente, tendá acceso al HPC del CECC.  
