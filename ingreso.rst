@@ -130,7 +130,7 @@ Una vez seleccionado SSH, aparecerá un recuadro donde deberá introducir la dir
  
 Despues de haber introducido la dirección IP, saldrá este recuadro donde se le pedira que ingresé el usuario y contraseña que el administrador le haya suministrado: 
 
-.. image:: /images/Moba/mobases3.PNG
+.. image:: /images/Moba/mobases4.PNG
     :width: 898
     :align: center
     :height: 604
