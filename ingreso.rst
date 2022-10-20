@@ -43,6 +43,13 @@ Conectarse usando SSH
 MacOS y GNU/Linux
 ******************
 
+Para conectarse usando MacOS o GNU/Linux , deberá abrír la terminal y escribir el comando *SSH* seguido de *dirección IP @ su usuario* como se muestra en la imagen: 
+
+.. image:: /images/linux.png
+    :width: 911px
+    :align: center
+    :height: 588px
+    :alt: Estructura CECC
 
 
 
