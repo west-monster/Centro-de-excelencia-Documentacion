@@ -58,7 +58,7 @@ Una vez abierto el programa aparecerá el siguiente menú:
 
 En este menú deberá dar click en el botón de conexión SSH 
 
-.. image:: /images/Moba/"Moba ses.PNG"
+.. image:: /images/Moba/Mobases.PNG
     :width: 452px
     :align: center
     :height: 442px
