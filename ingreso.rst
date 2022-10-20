@@ -66,7 +66,7 @@ En este menú deberá dar click en el botón de sesiones:
 
 Una vez oprima dicho botón, aparecerá un menú donde debrá seleccionar el tipo protocolo que desea usar, en este caso deber seleccionar SSH: 
 
-.. image:: /images/Moba/MobasesG
+.. image:: /images/Moba/Mobases.PNG
     :width: 898
     :align: center
     :height: 604
