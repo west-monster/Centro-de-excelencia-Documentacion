@@ -43,7 +43,7 @@ Conectarse usando SSH
 MacOS y GNU/Linux
 ******************
 
-Para conectarse usando MacOS o GNU/Linux , deberá abrír la terminal y escribir el comando *SSH* seguido de *dirección IP @ su usuario* como se muestra en la imagen: 
+Para conectarse usando MacOS o GNU/Linux , deberá abrír la terminal y escribir el comando *SSH* seguido de *dirección IP @ su usuario* usando la dirección IP del HPC del CECC como se muestra en la imagen: 
 
 .. image:: /images/linux.png
     :width: 911px
@@ -51,7 +51,7 @@ Para conectarse usando MacOS o GNU/Linux , deberá abrír la terminal y escribir
     :height: 491px
     :alt: Estructura CECC
 
-
+Si ha seguido los pasos correctamente, tendá acceso al HPC del CECC.  
 
 Windows
 **********
@@ -59,12 +59,39 @@ Windows
 
 Una vez abierto el programa aparecerá el siguiente menú:
 
+
+.. image:: /images/Putty.PNG
+    :width: 452px
+    :align: center
+    :height: 442px
+    :alt: Estructura CECC
+    
+En este menú deberá ingresar la dirección IP HPC del CECC y seleeciónar el tipo de conexión *SSH*
+
 .. image:: /images/Putty/Putty.PNG
     :width: 452px
     :align: center
     :height: 442px
     :alt: Estructura CECC
 
+Una vez de click en *Open*, la primera vez que se conecte a cualquier sevidor aparecerá una ventana como la que se muestra a continuacón (esto es totalmente normal y tiene como objetivo que su computador guarde un identificador para que la proxima vez que usted se trate de conectar al sevidor usando la misma dirección IP su computadora pueda verificar que es el mismo al que se conecto previamente), para continuar solo de click en *Accept*.    
+
+
+.. image:: /images/Putty/Putty1.PNG
+    :width: 611px
+    :align: center
+    :height: 418px
+    :alt: Estructura CECC
+
+Ahora saldrá está ventana donde se le pedira que ingresé el usuario y contraseña que el administrador le haya suministrado: 
+
+.. image:: /images/Putty/Putty2.PNG
+    :width: 611px
+    :align: center
+    :height: 418px
+    :alt: Estructura CECC
+    
+Si ha seguido los pasos correctamente, tendá acceso al HPC del CECC.    
 
 
 **Conectarse usando MobaXterm:**
@@ -85,7 +112,7 @@ En este menú deberá dar click en el botón de sesiones:
     :height: 503
     :alt: Estructura CECC
 
-Cuando vez oprima dicho botón, aparecerá un menú donde debrá seleccionar el tipo protocolo que desea usar, en este caso deber seleccionar SSH: 
+Cuando vez oprima dicho botón, aparecerá un menú donde debrá seleccionar el tipo protocolo que desea usar, en este caso deber seleccionar *SSH*: 
 
 .. image:: /images/Moba/Mobases.PNG
     :width: 898
