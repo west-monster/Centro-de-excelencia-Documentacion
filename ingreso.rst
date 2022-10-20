@@ -48,7 +48,7 @@ Para conectarse usando MacOS o GNU/Linux , deberá abrír la terminal y escribir
 .. image:: /images/linux.png
     :width: 911px
     :align: center
-    :height: 588px
+    :height: 491px
     :alt: Estructura CECC
 
 
@@ -58,6 +58,12 @@ Windows
 **Conectarse usando PuTTY**
 
 Una vez abierto el programa aparecerá el siguiente menú:
+
+.. image:: /images/Putty/Putty.PNG
+    :width: 911px
+    :align: center
+    :height: 523px
+    :alt: Estructura CECC
 
 
 
