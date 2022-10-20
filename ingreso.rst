@@ -46,3 +46,23 @@ MacOS y GNU/Linux
 Windows
 **********
 
+Conectarse usando MobaXterm:
+
+Una vez abierto el programa aparecerá el siguiente menú:
+
+.. image:: /images/Moba.PNG
+    :width: 452px
+    :align: center
+    :height: 442px
+    :alt: Estructura CECC
+
+En este menú deberá dar click en el botón de conexión SSH 
+
+.. image:: /images/"Moba ses.PNG"
+    :width: 452px
+    :align: center
+    :height: 442px
+    :alt: Estructura CECC
+
+
+
