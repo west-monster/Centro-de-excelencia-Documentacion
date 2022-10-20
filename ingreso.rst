@@ -18,9 +18,9 @@ Clientes SSH para windows:
 `MobaXterm <https://mobaxterm.mobatek.net/download.html>`_
 
 .. image:: /images/Moba.png
-    :width: 911px
+    :width: 600px
     :align: center
-    :height: 523px
+    :height: 331px
     :alt: MobaXterm image
     
 MobaXterm es un toolbox para computación remota, cuenta con un clientes SSH bastante completo y otras caracteristicas adicionales como multi ejecución (ejecutar el mismo codigo en varios servidores a la vez), compatibilidad con X11 Server,etc. 
@@ -45,9 +45,9 @@ MacOS y GNU/Linux
 Para conectarse usando MacOS o GNU/Linux , deberá abrír la terminal y escribir el comando *SSH* seguido de *dirección IP @ su usuario* usando la dirección IP del HPC del CECC como se muestra en la imagen: 
 
 .. image:: /images/linux1.png
-    :width: 911px
+    :width: 600px
     :align: center
-    :height: 491px
+    :height: 325px
     :alt: Linux terminal image
 
 Si ha seguido los pasos correctamente, tendá acceso al HPC del CECC.  
@@ -101,9 +101,9 @@ Si ha seguido los pasos correctamente, tendá acceso al HPC del CECC.
 Una vez abierto el programa aparecerá el siguiente menú:
 
 .. image:: /images/Moba.png
-    :width: 911px
+    :width: 600px
     :align: center
-    :height: 523px
+    :height: 331px
     :alt: MobaXterm tutorial
 
 
@@ -119,27 +119,27 @@ En este menú deberá dar click en el botón de sesiones:
 Cuando vez oprima dicho botón, aparecerá un menú donde debrá seleccionar el tipo protocolo que desea usar, en este caso deber seleccionar *SSH*: 
 
 .. image:: /images/Moba/Mobases.PNG
-    :width: 898
+    :width: 600
     :align: center
-    :height: 604
+    :height: 402
     :alt: MobaXterm tutorial
 
 
 Una vez seleccionado SSH, aparecerá un recuadro donde deberá introducir la dirección IP del HPC del CECC
 
 .. image:: /images/Moba/mobases2.PNG
-    :width: 898
+    :width: 600
     :align: center
-    :height: 604
+    :height: 403
     :alt: MobaXterm tutorial
  
  
 Despues de haber introducido la dirección IP, saldrá este recuadro donde se le pedira que ingresé el usuario y contraseña que el administrador le haya suministrado: 
 
 .. image:: /images/Moba/mobases4.PNG
-    :width: 898
+    :width: 600
     :align: center
-    :height: 604
+    :height: 334
     :alt: MobaXterm tutorial
  
 
