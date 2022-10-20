@@ -50,7 +50,7 @@ Conectarse usando MobaXterm:
 
 Una vez abierto el programa aparecerá el siguiente menú:
 
-.. image:: /images/Moba.PNG
+.. image:: /images/Moba.png
     :width: 911px
     :align: center
     :height: 523px
@@ -74,7 +74,7 @@ Una vez oprima dicho botón, aparecerá un menú donde debrá seleccionar el tip
     
 Una vez seleccionado SSH, aparecerá un recuadro donde deberá introducir la dirección IP del HPC del CECC
 
-.. image:: /images/Moba/Mobases2.PNG
+.. image:: /images/Moba/mobases2.PNG
     :width: 898
     :align: center
     :height: 604
