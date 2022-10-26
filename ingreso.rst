@@ -5,12 +5,12 @@ Ingreso
 
 Qué es SSH
 ####################
-El nombre SSH viene de Secure SHell, y es un protocolo que permite acceder de manera remota a un servidor por medio de un canal encriptado, por lo que las comunicaciones mendiante este protocolo suelen ser las más comunes para acceder a servidores, especialemente aquellos con sistema operativo GNU Linux.
+El nombre SSH viene de Secure SHell y es un protocolo que permite acceder de manera remota a un servidor por medio de un canal encriptado, por lo que las comunicaciones mendiante este protocolo suelen ser las más comunes para acceder a servidores, especialemente aquellos con sistema operativo GNU Linux.
 
 Instalar un cliente SSH
 ####################
 
-Para acceder al HPC del CECC usted debe hacer hacerlo mediante el uso de SSH, por lo que va a requerir un cliente SSH. Si usted posee una computadora algúna distribución de `GNU/Linux <https://www.gnu.org/home.es.html>`_ o  `MacOS (Antes OSX) <https://www.apple.com/co/macos/monterey/>`_, su computadora ya cuenta con un cliente SSH instalado en la terminar y puede pasar a la siguiente sección. En caso de utilizar una computadora con `Windows <https://www.microsoft.com/es-xl/windows>`_ será necesario intslara un cliente SSH ya que su sistema operativo no cuenta con uno instalado por defecto, a continuación le mostraremos algunos clientes SSH que puede intalar en Windiws.
+Para acceder al HPC del CECC usted debe hacer hacerlo mediante el uso de SSH, por lo que va a requerir un cliente SSH. Si usted posee una computadora alguna distribución de `GNU/Linux <https://www.gnu.org/home.es.html>`_ o  `MacOS (Antes OSX) <https://www.apple.com/co/macos/monterey/>`_, su computadora ya cuenta con un cliente SSH instalado en la terminar y puede pasar a la siguiente sección. En caso de utilizar una computadora con `Windows <https://www.microsoft.com/es-xl/windows>`_ será necesario instalar un cliente SSH ya que su sistema operativo no cuenta con uno instalado por defecto. A continuación le mostraremos algunos clientes SSH que puede intalar en Windiws.
 
 Clientes SSH para windows:
 ************************
@@ -23,7 +23,7 @@ Clientes SSH para windows:
     :height: 331px
     :alt: MobaXterm image
     
-MobaXterm es un toolbox para computación remota, cuenta con un clientes SSH bastante completo y otras caracteristicas adicionales como multi ejecución (ejecutar el mismo codigo en varios servidores a la vez), compatibilidad con X11 Server,etc. 
+MobaXterm es un toolbox para computación remota. Cuenta con un cliente SSH bastante completo y otras características adicionales como multi ejecución (ejecutar el mismo código en varios servidores a la vez), compatibilidad con X11 Server,etc. 
 
 
 `PuTTY <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>`_
@@ -34,7 +34,7 @@ MobaXterm es un toolbox para computación remota, cuenta con un clientes SSH bas
     :height: 442px
     :alt: PuTTY image
 
-Putty es un clientes SSH con varias herramientas como creación de llaves SSH, compatibilidad con IPv6, etc. Este cliente es más ligero que MobaXterm por lo que es una buena alternativa en caso de que el usuario cuente con una maquina con recursos limitados. 
+Putty es un clientes SSH con varias herramientas como creación de llaves SSH, compatibilidad con IPv6, etc. Este cliente es más ligero que MobaXterm por lo que es una buena alternativa en caso de que el usuario cuente con una máquina con recursos limitados. 
 
 Conectarse usando SSH
 ################
@@ -50,7 +50,7 @@ Para conectarse usando MacOS o GNU/Linux , deberá abrír la terminal y escribir
     :height: 325px
     :alt: Linux terminal image
 
-Si ha seguido los pasos correctamente, tendá acceso al HPC del CECC.  
+Si ha seguido los pasos correctamente, tendrá acceso al HPC del CECC.  
 
 Windows
 **********
@@ -75,7 +75,7 @@ En este menú deberá ingresar la dirección IP HPC del CECC y seleeciónar el t
     :alt: Putty tutorial
     
     
-Una vez de click en *Open*, la primera vez que se conecte a cualquier sevidor aparecerá una ventana como la que se muestra a continuacón (esto es totalmente normal y tiene como objetivo que su computador guarde un identificador para que la proxima vez que usted se trate de conectar al sevidor usando la misma dirección IP su computadora pueda verificar que es el mismo al que se conecto previamente), para continuar solo de click en *Accept*.    
+Una vez de click en *Open*, la primera vez que se conecte a cualquier sevidor aparecerá una ventana como la que se muestra a continuación (esto es totalmente normal y tiene como objetivo que su computador guarde un identificador, para que la próxima vez que usted se trate de conectar al sevidor usando la misma dirección IP, su computadora pueda verificar que es el mismo al que se conecto previamente), para continuar solo de click en *Accept*.    
 
 .. image:: /images/Putty/putty3.PNG
     :width: 611px
@@ -84,7 +84,7 @@ Una vez de click en *Open*, la primera vez que se conecte a cualquier sevidor ap
     :alt: Putty tutorial
 
 
-Ahora saldrá está ventana donde se le pedira que ingresé el usuario y contraseña que el administrador le haya suministrado: 
+Ahora saldrá esta ventana donde se le pedirá que ingrese el usuario y contraseña que el administrador le haya suministrado: 
 
 .. image:: /images/Putty/putty4.PNG
     :width: 611px
@@ -93,7 +93,7 @@ Ahora saldrá está ventana donde se le pedira que ingresé el usuario y contras
     :alt: Putty tutorial
    
    
-Si ha seguido los pasos correctamente, tendá acceso al HPC del CECC.    
+Si ha seguido los pasos correctamente, tendrá acceso al HPC del CECC.    
 
 
 **Conectarse usando MobaXterm:**
@@ -116,7 +116,7 @@ En este menú deberá dar click en el botón de sesiones:
     :alt: MobaXterm tutorial
 
 
-Cuando vez oprima dicho botón, aparecerá un menú donde debrá seleccionar el tipo protocolo que desea usar, en este caso deber seleccionar *SSH*: 
+Cuando oprima dicho botón, aparecerá un menú donde deberá seleccionar el tipo protocolo que desea usar, en este caso deber seleccionar *SSH*: 
 
 .. image:: /images/Moba/Mobases.PNG
     :width: 600
@@ -134,7 +134,7 @@ Una vez seleccionado SSH, aparecerá un recuadro donde deberá introducir la dir
     :alt: MobaXterm tutorial
  
  
-Despues de haber introducido la dirección IP, saldrá este recuadro donde se le pedira que ingresé el usuario y contraseña que el administrador le haya suministrado: 
+Después de haber introducido la dirección IP, saldrá este recuadro donde se le pedirá que ingrese el usuario y contraseña que el administrador le haya suministrado: 
 
 .. image:: /images/Moba/mobases4.PNG
     :width: 600
@@ -144,4 +144,4 @@ Despues de haber introducido la dirección IP, saldrá este recuadro donde se le
  
 
 
-Si ha seguido los pasos correctamente, tendá acceso al HPC del CECC.  
+Si ha seguido los pasos correctamente, tendrá acceso al HPC del CECC.  
